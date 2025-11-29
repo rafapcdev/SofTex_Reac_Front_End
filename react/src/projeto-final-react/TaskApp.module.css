@@ -1,0 +1,21 @@
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 2.25rem;
+  border-radius: 12px;
+  color: #ffffff;
+  /* Dark gradient background */
+  background: linear-gradient(135deg, #0f172a 0%, #111827 40%, #374151 70%, #4f46e5 100%);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+.eyebrow {
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.subtle {
+  color: rgba(255,255,255,0.85);
+}

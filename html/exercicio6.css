@@ -1,0 +1,91 @@
+:root {
+    --cor-fundo-escuro: #212529;
+    --cor-fundo-claro: #343a40;
+    --cor-texto-claro: #f8f9fa;
+    --cor-borda: #495057;
+    --cor-primaria: #007bff;
+    --cor-secundaria: #17a2b8;
+    --cor-hover: #495057;
+}
+
+body{
+    background-color: black;
+    color: azure;
+    font-family: fantasy;
+ 
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; 
+    margin: 2.0rem 1rem;
+    padding: 0;
+    flex-wrap: wrap; 
+}
+
+.card1, .card2, .card3 {
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-texto-claro);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.4);
+    flex: 1 1 300px; 
+    max-width: 350px; 
+    transition: transform 0.3s;
+    margin-bottom: 1.5rem; 
+   
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse; 
+    border-spacing: 0;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--cor-texto-claro);
+    background-color: var(--cor-fundo-claro);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    th, td {
+        padding: 0.75rem;
+        border-bottom: 1px solid var(--cor-borda);
+        text-align: left;
+    }
+    thead tr {
+        background-color: var(--cor-fundo-escuro);
+    }
+}
+
+@media screen and (max-width: 599px) {
+    body {
+    
+        background-color: var(--cor-secundaria); 
+        color: azure;
+    }
+    .card-container {
+ 
+        margin: 1rem 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1001px) {
+    body {
+
+        text-align: center; 
+    }
+    .card-container, table {
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-container {
+        max-width: 1200px; 
+    }
+}

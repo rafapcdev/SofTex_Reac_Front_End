@@ -1,0 +1,15 @@
+
+
+body{
+    background-color: black;
+    color: aquamarine;
+}
+
+.paragrafo1 {
+    padding: 1.5rem;
+    width: 80%;
+    border: 0.5rem solid aquamarine;
+    margin: 1rem auto;
+    height: auto;
+    box-shadow: 0 0 1rem aquamarine;
+}

@@ -1,0 +1,24 @@
+
+@mixin botaoPadrao {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.btn-confirmar {
+    @include botaoPadrao;
+    
+    box-shadow: 0 4px #0056b3; 
+}
+
+
+.btn-cancelar {
+    @include botaoPadrao;
+    background-color: #dc3545; 
+}

@@ -1,0 +1,81 @@
+
+    :root {
+        --cor-fundo-escuro: #212529; 
+        --cor-fundo-claro: #343a40; 
+        --cor-texto-claro: #f8f9fa; 
+        --cor-borda: #495057; 
+        --cor-primaria: #007bff; 
+        --cor-secundaria: #17a2b8; 
+        --cor-hover: #495057; 
+    }
+
+   
+    body {
+        background-color: var(--cor-fundo-escuro);
+        color: var(--cor-texto-claro);
+    }
+    
+    
+    table {
+        width: 90%; 
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 2rem auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        color: var(--cor-texto-claro); 
+        background-color: var(--cor-fundo-escuro); 
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3); 
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 0.8rem 1.2rem;
+        text-align: left;
+        border-bottom: 1px solid var(--cor-borda);
+    }
+    
+    tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    thead tr {
+        background-color: var(--cor-secundaria); 
+        color: var(--cor-texto-claro);
+    }
+
+    th {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: var(--cor-fundo-escuro); 
+    }
+
+    tbody tr:hover {
+        background-color: var(--cor-hover); 
+        cursor: pointer;
+    }
+
+    td:last-child {
+        text-align: center; 
+    }
+
+    button {
+        background-color: var(--cor-primaria); 
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem; 
+        font-size: 0.9rem;
+        border-radius: 0.3rem; 
+        cursor: pointer;
+        margin-left: 0.5rem; 
+        transition: background-color 0.2s ease;
+    }
+
+    button:hover {
+        background-color: #0056b3; 
+        box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+    }

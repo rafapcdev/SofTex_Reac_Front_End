@@ -1,0 +1,40 @@
+1. O que é um algoritmo? Dê um exemplo simples da vida real.
+    R= e uma sequencia de passos para fazer algo.
+     Ex:uma receita de café (
+        INICIAR
+
+        MEDIR água e pó de café.
+
+        AQUECER a água.
+
+        SE (A água estiver fervendo) ENTÃO
+
+            DESPEJAR a água no filtro sobre o pó.
+
+        SENÃO
+
+            ESPERAR aquecer e VOLTAR ao passo 4.
+
+        SERVIR 
+        FIM.)
+
+2. O que são variáveis e para que servem em JavaScript?
+    R= Sao espacos de memorias alocados pelo sistema para armazenar dados.
+
+3. Explique com suas palavras a diferença entre operadores aritméticos e
+operadores lógicos.
+    R= operadores aritméticos sao os de fazer algum tipo de conta como multiplicaçao, divisao, somar e subtrair.
+    enquanto os operadores logicos sao para verificar se a condilao e verdadeira ou falsa, atraves de valores booleanos(true, false)
+    ou expressões que retorna bolleanos como(AND , OR , NOT)
+
+4. Para que servem as estruturas condicionais ( if / else )?
+    R= para tomar uma decisao dentro de um programa, e ela determina que caminho o software vai seguir, controlando o fluxo dessa maneira.
+
+5. Qual a diferença entre os laços for e while ?
+    R= for e um laço geralmente usado quando vc ja sabe quantos passos precisa dar, quantas vz o laço vai rodar no software, enquato o WHILE e para quando vc nao tem ideia de quantas vezes aquele loop precisa rodar.
+
+6. O que é uma função e por que ela é útil em um programa?
+    R= funçao e uma forma de encapsula um pedaço do codigo e deixar ele independente de outras partes para que o software seja mais facil de ler e dar manutençao!
+
+7. O que significa modularizar um código e qual a vantagem disso?
+    R= Modularizar um código significa dividir um programa grande e complexo em partes menores, independentes e gerenciáveis, chamadas módulos. Cada módulo é responsável por uma funcionalidade específica e bem definida
